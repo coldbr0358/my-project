@@ -1,7 +1,7 @@
 ---
 name: security-reviewer
 description: 코드 보안 취약점(SQL Injection, XSS, 시크릿 노출, 명령어 인젝션)을 분석하는 전문 에이전트. PR diff에서 변경된 파일을 대상으로 OWASP Top 10 기준 보안 취약점을 탐지하고 심각도별로 분류하여 보고한다. 오케스트레이터가 보안 리뷰를 요청할 때 호출된다.
-tools: Read, Glob, Grep, Bash
+tools: Read, Glob, Grep
 model: claude-sonnet-4-6
 isolation: worktree
 ---
